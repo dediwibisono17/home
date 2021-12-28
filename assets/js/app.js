@@ -2,7 +2,7 @@
 
 
 $.ajax({
-    url: '/pppooolll-main/assets/js/data.json',
+    url: '/home/assets/js/data.json',
     method: 'GET',
     success: (response => {
         // console.log(response);
