@@ -198,6 +198,10 @@ header .text-left {
     text-align: center
 }
 
+.wrap__desc .detail__p div {
+    font-size: 14px;
+}
+
 .wrap__desc .detail__p .location,
 .wrap__desc .detail__p .type,
 .wrap__desc .detail__p .year {
@@ -347,4 +351,36 @@ header .text-left {
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
+}
+
+footer {
+    padding: 16px 0;
+}
+
+footer .wrap {
+    display: block;
+}
+
+footer .img {
+    width: 30px;
+    margin: 0 8px;
+    /* border: 1px solid; */
+    height: 30px;
+    display: inline-block;
+}
+
+footer .img img {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: .5s;
+    object-fit: contain;
+}
+
+footer .img img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
