@@ -74,7 +74,7 @@ $.ajax({
         var url = new URL(url_string);
         var c = url.searchParams.get("page");
         // console.log(c);
-        if (window.location.pathname == '/pppooolll-main/detail.html') {
+        if (window.location.pathname == '/home/detail.html') {
             var showtimes = response[c].fasilitas;
             var fasilitas = showtimes.join(', ');
             $(".left_").html(`
