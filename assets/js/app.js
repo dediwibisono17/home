@@ -31,7 +31,7 @@ $.ajax({
                         <div class="content__title">${name}</div>
                         <div class="content__p">
                             <div class="type">Type: ${type}</div>
-                            <div class="year">Year: ${tahun}</div>
+                            <div class="year">Mulai: ${mulai}</div>
                             <div class="location">Location: ${lokasi}</div>
                         </div>
                     </div>
