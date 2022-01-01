@@ -141,7 +141,7 @@ $.ajax({
                 <div class="detail">
                     <div class="detail__p">
                         <div class="type">Tipe: ${response[c].type}</div>
-                        <div class="year">Mulai : ${response[c].tahun}</div>
+                        <div class="year">Mulai : ${response[c].mulai}</div>
                         <div class="location">Lokasi: ${response[c].lokasi}</div>
                     </div>
                 </div>
