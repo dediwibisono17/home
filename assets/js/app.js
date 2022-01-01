@@ -19,7 +19,7 @@ $.ajax({
             var type = response[x].type;
             var lokasi = response[x].lokasi;
             var lantai = response[x].lantai;
-            var tahun = response[x].tahun;
+            var mulai = response[x].mulai;
             var img = response[x].img;
 
             $(".wrap-home").append(`
