@@ -77,6 +77,8 @@ $.ajax({
         if (window.location.pathname == '/home/detail.html') {
             var showtimes = response[c].fasilitas;
             var fasilitas = showtimes.join(', ');
+            var benefit = response[c].benefit;
+            var h = ""
             $(".left_").html(`
                 <div class="backbutton" onclick="history.back()">< Kembali</div>
                 <h1>${response[c].name}</h1>
