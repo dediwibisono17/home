@@ -79,6 +79,7 @@ $.ajax({
             var fasilitas = showtimes.join(', ');
             var benefit = response[c].benefit;
             var h = ""
+            benefit.map((a, i) => { h += `<li>${a}</li>` });
             $(".left_").html(`
                 <div class="backbutton" onclick="history.back()">< Kembali</div>
                 <h1>${response[c].name}</h1>
