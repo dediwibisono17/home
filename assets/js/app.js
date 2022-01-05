@@ -121,6 +121,11 @@ $.ajax({
                     </tbody>
                 </table>
                 <br>
+                <h3>Benefit</h3>
+                <ul class="list-benefit">
+                    ${h}
+                </ul>
+                <br>
                 <a href="${response[c].maps}" target="_blank" class="button-link">
                     Cek Lokasi via Maps
                 </a>
