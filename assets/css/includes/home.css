@@ -16,10 +16,6 @@ td {
     ;
 }
 
-.o-0.5 {
-    opacity: .5
-}
-
 .o-1 {
     opacity: 1
 }
@@ -72,7 +68,7 @@ header .text-left {
     text-align: center;
     list-style-type: none;
     background-color: #fff;
-    line-height: 40px;
+    line-height: 35px;
     border-bottom: 1px solid #fff;
     position: relative
 }
@@ -383,4 +379,12 @@ footer .img img:hover {
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+}
+
+#detail p {
+    font-size: 14px;
+}
+
+.galeri {
+    margin-top: 60px;
 }
