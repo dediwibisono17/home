@@ -21,6 +21,9 @@ $.ajax({
             var lantai = response[x].lantai;
             var mulai = response[x].mulai;
             var img = response[x].img;
+            var status = response[x].status;
+
+            if (status == 'aktif') {
 
             $(".wrap-home").append(`
                 <div class="wrap__card" id="${x}" data-content="${x}">
@@ -37,6 +40,7 @@ $.ajax({
                     </div>
                 </div>
                 `)
+            }
         }
         $(".wrap__card").hover(function() {
             var id_ = $(this).attr('data-content')
