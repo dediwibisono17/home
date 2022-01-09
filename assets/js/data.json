@@ -15,7 +15,8 @@
         "kamar_mandi": 2,
         "fasilitas": ["24 jam SECURITY", "ONE Gate System ", "Free wifi internet (3 bulan)", "CCTV (private CCTV 3 titik)", "PLAYGROUND di dalam perumahan", "MUSHOLLA di dalam perumahan", "UNDERGROUND electricity "],
         "maps": "https://goo.gl/maps/Yob9ku2xdzKedtJT7",
-        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA"]
+        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA"],
+        "status": "aktif"
     },
 
     {
@@ -35,7 +36,8 @@
         "kamar_mandi": 2,
         "fasilitas": ["Musholla", "CCTV Lingkungan", "Playground", "24 Jam Security", "2 Pintu masuk", "Balai Warga"],
         "maps": "https://goo.gl/maps/KBT5FEMJyiRom7Aq7",
-        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"]
+        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"],
+            "status": "aktif"
     }, {
         "name": "Palm Village",
         "type": "61LB dan 71LT",
@@ -53,7 +55,8 @@
         "kamar_mandi": 2,
         "fasilitas": ["ONE GATE SYSTEM", "CCTV", "UNDERGROUND electricity", "24 jam SECURITY "],
         "maps": "https://g.page/palmvillagedepok?share",
-        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"]
+        "benefit": ["ALL IN sudah termasuk", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"],
+            "status": "aktif"
     },
     {
         "name": "Ocean Terrace",
@@ -72,7 +75,8 @@
         "kamar_mandi": 2,
         "fasilitas": ["24 jam SECURITY", "ONE Gate System ", "Free wifi internet (3 bulan)", "CCTV (private CCTV 3 titik)", "PLAYGROUND di dalam perumahan", "MUSHOLLA di dalam perumahan", "UNDERGROUND electricity "],
         "maps": "https://goo.gl/maps/Yob9ku2xdzKedtJT7",
-        "benefit": ["Gratis Biaya KPR, Notaris", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"]
+        "benefit": ["Gratis Biaya KPR, Notaris", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"],
+            "status": "aktif"
     },
     {
         "name": "Ocean Terrace",
@@ -91,6 +95,7 @@
         "kamar_mandi": 2,
         "fasilitas": ["24 jam SECURITY", "ONE Gate System ", "Free wifi internet (3 bulan)", "CCTV (private CCTV 3 titik)", "PLAYGROUND di dalam perumahan", "MUSHOLLA di dalam perumahan", "UNDERGROUND electricity "],
         "maps": "https://goo.gl/maps/Yob9ku2xdzKedtJT7",
-        "benefit": ["Gratis Biaya KPR, Notaris", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"]
+        "benefit": ["Gratis Biaya KPR, Notaris", "SHM, IMB & PBB (Pecah)", "AJB-BN + BPHTB", "Biaya Instalasi Listrik & PDAM", "DP 1,7JUTA", "Konsul Desain Rumah (Desain sesuai kebutuhan Anda)"],
+            "status": "draft"
     }
 ]
