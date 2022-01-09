@@ -245,7 +245,7 @@ header .text-left {
 }
 
 .wrap__card .card_:hover img {
-    opacity: 1
+    opacity: .6
 }
 
 .wrap__card .card_ img {
@@ -253,7 +253,7 @@ header .text-left {
     margin: 0;
     padding: 0;
     width: 100%;
-    opacity: .4;
+    opacity: 1;
     transition: .2s
 }
 
@@ -387,4 +387,62 @@ footer .img img:hover {
 
 .galeri {
     margin-top: 60px;
+}
+
+.galeri-foto {
+    display: block;
+}
+
+.galeri-foto .listing {
+    display: inline-block;
+    width: 24%;
+    height: 240px;
+    margin-bottom: 4px;
+}
+
+.galeri-foto .listing:hover {
+    cursor: zoom-in;
+}
+
+@media only screen and (max-width: 600px) {
+    .galeri-foto .listing {
+        width: 100%;
+    }
+}
+
+.galeri-foto .listing img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#image-foto .modal-image {
+    width: 100%;
+    height: 480px;
+}
+
+#image-foto .modal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#image-foto h4 {
+    color: white;
+}
+
+.close-class {
+    width: 20px;
+    height: 20px;
+}
+
+.close-class img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#image-foto .modal-content {
+    background: transparent;
+    border: 1px solid transparent;
 }
