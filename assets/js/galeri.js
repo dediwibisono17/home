@@ -33,10 +33,6 @@ $.ajax({
 
             $("#image-foto .modal-content").html(`
                     <div class="modal-body">
-                        <div class="float-right close-class" data-dismiss="modal">
-                            <img src="img/close.png">
-                        </div>
-                        <h4 class="text-center">${response[data].name}</h4>
                         <div class="modal-image">
                             <img src=${i.target.src} />
                         </div>
