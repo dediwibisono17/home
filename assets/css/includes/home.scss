@@ -366,8 +366,11 @@ footer {
     }
 }
 
-#detail p {
+#detail p,
+td,
+li {
     font-size: 14px;
+    color: #333;
 }
 
 .galeri {
